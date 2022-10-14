@@ -1,4 +1,8 @@
 import streamlit as st
-st.title("Hello")
-st.markdown("salary prediction webapp")
-st.text("hii ")
+title = st.title('News App')
+st.header('Header')
+st.subheader('Subheader')
+st.text('raw data')
+st.caption('Caption')
+st.code('for i in range(20):print i')
+st.markdown('# *heading1* ')
